@@ -47,6 +47,8 @@ __author__ = 'Ola Brynildsrud'
 __credits = ['Ola Brynildsrud']
 __email__ = 'olbb@fhi.no'
 
+csv.field_size_limit(sys.maxsize)
+
 def main():
     """
     Converts VCF files (version 4.x) to Scoary format
